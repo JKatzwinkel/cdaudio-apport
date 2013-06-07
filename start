@@ -1,0 +1,6 @@
+#!/bin/bash
+
+set PYTHONPATH python-audio-tools/:$PYTHONPATH
+export PYTHONPATH
+python cdaudio.py
+
